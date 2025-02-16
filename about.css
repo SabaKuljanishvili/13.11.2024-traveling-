@@ -390,7 +390,7 @@ letter-spacing: 0.27px;
 
 #sto {
     display: flex;
-    max-width: 1300px;
+    width: 1300px;
     gap: 47px;
     align-content: center;
     margin: 0 auto;
@@ -680,7 +680,7 @@ padding-right: 46px;
     /* big text */
     
     .bi-te {
-        max-width: 750px;
+        max-width: 800px;
         width: 100%;
         margin: 0 auto;
         margin-top: 55px;
@@ -694,7 +694,6 @@ padding-right: 46px;
     font-weight: 700;
     line-height: 40px; 
     letter-spacing: 0.27px;
-    width: 300px;
     }
     
     
@@ -703,18 +702,18 @@ padding-right: 46px;
     #sto {
         display: grid;
         grid-template-columns: 1fr;
-        max-width: 500px !important;
+        width: 800px ;
         gap: 47px;
         align-content: center;
         margin: 0 auto;
         margin-top: 150px;
-        padding: 12px;
+        padding: 6px;
     }
     .stoO {
-        width: 580px;
+        width: 700px;
     }
     .stoT {
-        width: 580px;
+        width: 700px;
     }
     #sto p {
         color: #000;
@@ -1030,7 +1029,7 @@ padding-right: 46px;
     #sto {
         display: grid;
         grid-template-columns: 1fr;
-        max-width: 300px !important;
+        width: 400px;
         gap: 47px;
         align-content: center;
         margin: 0 auto;
@@ -1047,10 +1046,10 @@ padding-right: 46px;
         letter-spacing: 0.27px;
     }
     .stoO {
-        max-width: 300px !important;
+        width: 350px;
     }
     .stoT {
-        max-width: 300px !important;
+        width: 350px ;
     }
     .stoO h2  {
         color: #000;
@@ -1082,7 +1081,7 @@ padding-right: 46px;
     display: grid;
     grid-template-columns: 1fr;
     width: 80%;
-    max-width: 300px !important;
+    width: 1300px ;
     gap: 47px;
     padding: 32px;
     margin: 0 auto;
@@ -1091,7 +1090,7 @@ padding-right: 46px;
     justify-items: center;
     }
     .column {
-    width: 330px;
+    width: 360px;
     }
     .column h2  {
         color: #000;
@@ -1166,7 +1165,7 @@ padding-right: 46px;
     /* saboloo sami qardi */
     
     .card {
-        max-width: 330px;
+        width: 349px;
         height: 471px;
         flex-shrink: 0;
     
@@ -1182,11 +1181,10 @@ padding-right: 46px;
         gap: 80px;
         justify-content: center;
         margin: 68px auto;
-        width: 330px;
         padding-left: 11px;
     }
       .card p {
-        width: 260px;
+        width: 270px;
     height: 280px;
     flex-shrink: 0;
     
@@ -1615,16 +1613,3 @@ line-height: 27px;
         height: 20px;
     }
 }
-
-/*  */
-
-
-
-
-
-
-
-
-
-
-
