@@ -390,7 +390,7 @@ letter-spacing: 0.27px;
 
 #sto {
     display: flex;
-    width: 1300px;
+    max-width: 1300px;
     gap: 47px;
     align-content: center;
     margin: 0 auto;
@@ -680,7 +680,7 @@ padding-right: 46px;
     /* big text */
     
     .bi-te {
-        max-width: 800px;
+        max-width: 750px;
         width: 100%;
         margin: 0 auto;
         margin-top: 55px;
@@ -694,6 +694,7 @@ padding-right: 46px;
     font-weight: 700;
     line-height: 40px; 
     letter-spacing: 0.27px;
+    width: 300px;
     }
     
     
@@ -702,17 +703,18 @@ padding-right: 46px;
     #sto {
         display: grid;
         grid-template-columns: 1fr;
-        width: 800px;
+        max-width: 500px !important;
         gap: 47px;
         align-content: center;
         margin: 0 auto;
         margin-top: 150px;
+        padding: 12px;
     }
     .stoO {
-        width: 700px;
+        width: 580px;
     }
     .stoT {
-        width: 700px;
+        width: 580px;
     }
     #sto p {
         color: #000;
@@ -1028,7 +1030,7 @@ padding-right: 46px;
     #sto {
         display: grid;
         grid-template-columns: 1fr;
-        width: 400px;
+        max-width: 300px !important;
         gap: 47px;
         align-content: center;
         margin: 0 auto;
@@ -1045,10 +1047,10 @@ padding-right: 46px;
         letter-spacing: 0.27px;
     }
     .stoO {
-        width: 350px;
+        max-width: 300px !important;
     }
     .stoT {
-        width: 350px;
+        max-width: 300px !important;
     }
     .stoO h2  {
         color: #000;
@@ -1080,7 +1082,7 @@ padding-right: 46px;
     display: grid;
     grid-template-columns: 1fr;
     width: 80%;
-    max-width: 1300px;
+    max-width: 300px !important;
     gap: 47px;
     padding: 32px;
     margin: 0 auto;
@@ -1089,7 +1091,7 @@ padding-right: 46px;
     justify-items: center;
     }
     .column {
-    width: 360px;
+    width: 330px;
     }
     .column h2  {
         color: #000;
@@ -1164,7 +1166,7 @@ padding-right: 46px;
     /* saboloo sami qardi */
     
     .card {
-        width: 349px;
+        max-width: 330px;
         height: 471px;
         flex-shrink: 0;
     
@@ -1180,10 +1182,11 @@ padding-right: 46px;
         gap: 80px;
         justify-content: center;
         margin: 68px auto;
+        width: 330px;
         padding-left: 11px;
     }
       .card p {
-        width: 270px;
+        width: 260px;
     height: 280px;
     flex-shrink: 0;
     
@@ -1612,3 +1615,16 @@ line-height: 27px;
         height: 20px;
     }
 }
+
+/*  */
+
+
+
+
+
+
+
+
+
+
+
